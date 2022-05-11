@@ -5,29 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/master.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
     <title>Clase 02 ::: HTML</title>
+    <style>
+       /*  body{
+            background: rgb(188, 226, 243);
+        } */
+
+        header{
+            background: rgb(236, 113, 113);
+        }
+    </style>
 </head>
 <body>
 
-    <header>
+    <header style="background: rgb(236, 113, 113);">
+        <hgroup></hgroup>
+        <h1>Encabezado de la Página</h1>
+        <h1 class="segundo">Soy el segundo H1</h1>
+        <h1 id="tercero">
+            Soy el tercer H1
+        </h1>
         <h1>
-            Encabezado de la Página
+            Soy el cuarto H1
         </h1>
     </header>
 
     <nav>
-        <ul>
-            <li>
-                <a href="./pages/productos.html">PRODUCTOS</a>
-            </li>
-            <li>
-                <a href="./pages/susursales.html">SUCURSALES</a>
-            </li>
-        </ul>
+        <a href="./pages/productos.html">PRODUCTOS</a>
+        <a href="./pages/susursales.html">SUCURSALES</a>        
     </nav>
 
     <main>
         <h2>Compras del Súper mientras escribo</h2>
+        <p id="parrafo">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong class="fuerte">Cupiditate consequatur sed totam, accusantium</strong>  magnam eos explicabo nobis doloribus laboriosam! Dolore, nemo labore. <span>Cupiditate consequatur sed totam, accusantium</span>Excepturi voluptatibus voluptates at corporis possimus <strong id="otrostrong">Cupiditate consequatur sed totam, accusantium</strong>in debitis.
+        </p>
             <ul>
                 <li>Café</li>
                 <li>Leche</li>
